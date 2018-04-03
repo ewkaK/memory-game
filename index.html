@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="game.js"></script>
+</head>
+<body>
+    <div class="page-title">
+        <h1>Memory Game</h1>
+        <a href="#">START GAME</a>
+    </div>
+
+    <div id="board">
+
+    </div>
+
+    <script>
+        $('.page-title a').on('click', function() {
+
+            draw_board();
+            round();
+
+        });
+    </script>
+</body>
+</html>

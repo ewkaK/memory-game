@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+#board {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.card img{
+    height: auto;
+    max-width: 100%;
+    padding: 20px;
+    display: none;
+}
+
+.card{
+    flex: 0 1 20%; /* flex-grow flex-shrink flex-basic*/
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 10px;
+    background: #fff2d5;
+    height: 300px;
+    width: 250px;
+}
+
+.card>img.showed_card{
+    display: block;
+}
